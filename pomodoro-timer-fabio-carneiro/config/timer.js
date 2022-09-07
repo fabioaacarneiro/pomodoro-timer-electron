@@ -1,4 +1,4 @@
-var pomodoro = {
+const pomodoro = {
     started: false,
     resetMinutes: 1,
     resetSeconds: 0,
@@ -15,7 +15,7 @@ var pomodoro = {
     infoButton: document.querySelector("#info"),
     resetButton: document.querySelector("#reset"),
     init: function() {
-        var self = this
+        const self = this
         this.minutesDom.innerHTML = this.minutes
         this.interval = setInterval(function () {
             self.intervalCallback.apply(self)
