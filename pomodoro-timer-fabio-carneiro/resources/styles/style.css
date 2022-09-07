@@ -1,0 +1,185 @@
+
+body {
+    background: #919191;
+    width: 800px;
+    height: 450px;
+    background-image: linear-gradient(50deg, #9370DB, #C71585, #191970);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#container {
+    border: 1px solid #3333;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    background: #00000060;
+    box-shadow: 10px 5px 10px #00000055;
+}
+
+#timer {
+    color: #32CD32;
+    font-size: 130px;
+    line-height: .8em;
+    margin: 5px auto;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#time {
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+    text-shadow: #00000099 10px 5px 10px;
+}
+
+#filler {
+    background: #ddffcc;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#buttons button {
+    background: #4da6ff;
+    border: none;
+    color: #fff;    cursor: pointer;
+    width: 90px;
+    margin: 10px auto;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px #00000055;
+}
+
+#buttons button#info {
+    transition: all .5s;
+    background-color: #9932CC;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/info-white.png");
+    width: 50px;
+    margin: 10px;
+    border: 2px solid transparent;
+}
+
+#buttons button#info:hover {
+    background-image: url("../img/info-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#buttons button#inc {
+    transition: all 0.5s;
+    background-color: #4da6ff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/plus-white.png");
+    width: 50px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#buttons button#inc:hover {
+    background-image: url("../img/plus-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#buttons button#dec {
+    transition: all .5s;
+    background-color: #4da6ff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/minus-white.png");
+    width: 50px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#buttons button#dec:hover {
+    background-image: url("../img/minus-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#buttons button#start {
+    transition: all .5s;
+    background-color: #0c0;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/play-white.png");
+    width: 50px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#buttons button#start:hover {
+    background-image: url("../img/play-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#buttons button#stop {
+    transition: all .5s;
+    background-color: #f00;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/pause-white.png");
+    width: 50px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#buttons button#stop:hover {
+    background-image: url("../img/pause-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#buttons button#reset {
+    transition: all .5s;
+    background-color: #2E8B57;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/reset-white.png");
+    width: 50px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+#buttons button#reset:hover {
+    background-image: url("../img/reset-black.png");
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border: 2px solid black;
+    border-radius: 50%;
+}

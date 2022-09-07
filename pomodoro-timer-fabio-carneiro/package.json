@@ -1,0 +1,15 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "Relógio para estudo usando método Pomodoro",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Fabio Carneiro",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.1.1"
+  }
+}
