@@ -1,5 +1,6 @@
 <h2 align="center">pomodoro-timer-electron</h2>
-<p align="center">Este é um timer pomodoro com alarme sonoro e ajuste em minutos do tempo para métodologia pomodoro para estudo</p>
+<p align="center">Este é um timer pomodoro com alarme sonoro e ajuste em minutos do tempo para métodologia pomodoro para estudo<br>
+efeitos nos botões e funcional empregando o objetivo de ser um timer elegante, moderno e extremamente simples.</p>
 <hr>
 <p align="center">Para testar o projeto instale as dependências com o comando:</p>
 <p align="center">npm install</p>
