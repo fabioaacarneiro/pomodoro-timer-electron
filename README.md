@@ -11,3 +11,5 @@
 <p align="center">electron-packager .</p>
 
 <img src="https://github.com/bynmboy/pomodoro-timer-electron/blob/master/img/pomodoro-timer-fabio-carneiro.png?raw=true" alt="pomodoro-timer-electron" height="600" align="center"/>
+<hr>
+<h2 align="center">Fabio Carneiro</h2>
